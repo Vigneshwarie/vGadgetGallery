@@ -20,7 +20,7 @@ All the above packages are included in the package.json file, which will be inst
 
 The application source code can be accessed using the given link https://github.com/Vigneshwarie/vGadgetGallery
 
-One can download the code from the above link. To use this application, one must install all node.js, MySQL and other necessary packages as mentioned above in the installation section. Then, navigate to the db folder and execute the schema. Create an .env file and include the connection variables like MySQL user, password, and database name. To feed the seeds sample data into the database, use the commnd below.
+One can download the code from the above link. To use this application, one must install all node.js, MySQL, and other necessary packages mentioned above in the installation section. Then, navigate to the db folder and execute the schema. Create a .env file and include the connection variables like MySQL user, password, and database name. Use the command below to feed the seed sample data into the database.
 
 application-folder> npm run seed
 
@@ -51,6 +51,8 @@ The application supports functionality like GET, POST, PUT, and DELETE requests.
 ![Alt text](assets/images/DeleteTag.png)
 
 ## Walkthrough Video
+
+[![Watch the video](assets/images/GetProducts.png)](https://drive.google.com/file/d/1N-QFwsMbWvMCeYhENAMFOnN-ITsvyJj8/view?usp=share_link)
 
 ## Credits
 
