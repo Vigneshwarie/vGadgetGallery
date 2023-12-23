@@ -3,7 +3,6 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 
 
 // get all products
-// https://stackoverflow.com/questions/25438076/sequelize-how-to-retrieve-specific-fields-from-joined-tables
 // TA Daniel helped me fixing the join issue.
 router.get('/', async (req, res) => {
   try {
